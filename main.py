@@ -26,57 +26,74 @@
 # print(f"remainder: {a / b}")
 # print(f"power: {a ** b}")
 
-#Exercice 3
+# # Exercice 3
 
-# first_name = "ludivine "
-# last_name = "Etou Apendi"
-# full_name = first_name + "" + last_name
-# print("Full name in uppercase:", full_name.upper())
-# print("Length of full name:", len(full_name))
-# sentence = "Python est un langage puissant"
-# words_list = sentence.split()
-# print("Original sentence:", sentence)
-# print("Words list:", words_list)
-
-
-# Exercice 4
-# Convertir une chaîne contenant un nombre en entier
-str_number = "42"
-int_number = int(str_number)
-
-# Convertir un float en entier
-float_number = 3.99
-int_from_float = int(float_number)  # ça tronque la partie décimale (pas d'arrondi)
-
-# Convertir un entier en float
-int_value = 7
-float_from_int = float(int_value)
-
-# Convertir un nombre (int ou float) en string
-num = 123
-str_from_num = str(num)
-
-# Affichage des résultats et de leurs types
-print(f"Original string: {str_number}, Converted: {int_number}, Type: {type(int_number)}")
-print(f"Original float: {float_number}, Converted: {int_from_float}, Type: {type(int_from_float)}")
-print(f"Original int: {int_value}, Converted: {float_from_int}, Type: {type(float_from_int)}")
+# # first_name = "ludivine "
+# # last_name = "Etou Apendi"
+# # full_name = first_name + "" + last_name
+# # print("Full name in uppercase:", full_name.upper())
+# # print("Length of full name:", len(full_name))
+# # sentence = "Python est un langage puissant"
+# # words_list = sentence.split()
+# # print("Original sentence:", sentence)
+# # print("Words list:", words_list)
 
 
-#Exercice 4
-str_number = "42"
-int_number = int(str_number)
+# # Exercice 4
+# # Convertir une chaîne contenant un nombre en entier
+# str_number = "42"
+# int_number = int(str_number)
 
-float_number = 3,99
-int_from_float = int(float_number)
+# # Convertir un float en entier
+# float_number = 3.99
+# int_from_float = int(float_number)  # ça tronque la partie décimale (pas d'arrondi)
 
-int_value = 7
-float_from_int =float(int_value)
+# # Convertir un entier en float
+# int_value = 7
+# float_from_int = float(int_value)
 
-num = 123
-str_from_int = str(num)
+# # Convertir un nombre (int ou float) en string
+# num = 123
+# str_from_num = str(num)
 
-print(f"Original string: {str_number}, Converted: {int_number}, Type: {type(int_number)}")
-print(f"Original float: {float_number}, Converted: {int_from_float}, Type: {type(int_from_float)}")
-print(f"Original int: {int_value}, Converted: {float_from_int}, Type: {type(float_from_int)}")
-print(f"Original number: {num}, Converted: '{str_from_num}', Type: {type(str_from_num)}")
+# # Affichage des résultats et de leurs types
+# print(f"Original string: {str_number}, Converted: {int_number}, Type: {type(int_number)}")
+# print(f"Original float: {float_number}, Converted: {int_from_float}, Type: {type(int_from_float)}")
+# print(f"Original int: {int_value}, Converted: {float_from_int}, Type: {type(float_from_int)}")
 
+
+# # Exercice 4
+# str_number = "42"
+# int_number = int(str_number)
+
+# float_number = 3, 99
+# int_from_float = int(float_number)
+
+# int_value = 7
+# float_from_int = float(int_value)
+
+# num = 123
+# str_from_int = str(num)
+
+# print(f"Original string: {str_number}, Converted: {int_number}, Type: {type(int_number)}")
+# print(f"Original float: {float_number}, Converted: {int_from_float}, Type: {type(int_from_float)}")
+# print(f"Original int: {int_value}, Converted: {float_from_int}, Type: {type(float_from_int)}")
+# print(f"Original number: {num}, Converted: '{str_from_num}', Type: {type(str_from_num)}")
+
+# Exercice 5
+
+is_student = True
+is_the_birthday_girl = True
+
+print(is_student and is_the_birthday_girl)
+print(is_student or is_the_birthday_girl)
+print(not is_student)
+
+my_age = 26
+friend_age = 22
+print(my_age > friend_age)
+print(friend_age < my_age)
+
+print(my_age >= friend_age)
+print(my_age == friend_age)
+print(my_age != friend_age)
